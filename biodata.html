@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bio-data | Nishmitha</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-size: 15px;
+        }
+
+        .bio-content {
+            display: block;
+        }
+
+        .bio-block {
+            margin-bottom: 34px;
+            font-size: 16px;
+        }
+
+        .facts {
+            font-size: 16px;
+        }
+
+        .bio-block>p,
+        .more-grid {
+            font-size: 16px;
+        }
+
+        .more-grid span {
+            font-size: 14px;
+        }
+
+        .bio-block.education-box {
+            border: 1px solid #dbe2df;
+            border-left: 5px solid #167c78;
+            background: #fbfcfa;
+            padding: 22px 24px;
+            box-shadow: 0 8px 20px #182b3a10;
+        }
+
+        .bio-block.education-box h3 {
+            margin-top: 0;
+        }
+
+        .bio-block.education-box table {
+            font-size: 15px;
+        }
+
+        .bio-block.education-box th {
+            font-size: 13px;
+        }
+
+        .bio-wide {
+            width: 100%;
+        }
+
+        .box-print {
+            text-align: right;
+            border-top: 1px solid #dbe2df;
+            padding: 16px 24px;
+        }
+
+        .print-option {
+            background: #167c78;
+            color: #fff;
+            border: 0;
+            padding: 11px 18px;
+            font-weight: bold;
+            font-size: 13px;
+        }
+
+        .bio-header {
+            position: relative;
+            display: block;
+            width: 100%;
+            clear: both;
+        }
+
+        @media print {
+            .site-header {
+                display: block;
+                position: static !important;
+                top: auto !important
+            }
+
+            .site-footer,
+            .box-print {
+                display: none !important
+            }
+
+            body {
+                background: #fff
+            }
+
+            main.wrap {
+                width: 100%;
+                margin: 0;
+                padding: 0
+            }
+
+            .biodata-sheet {
+                box-shadow: none
+            }
+        }
+    </style>
+</head>
+
+<body class="inner-page">
+    <a class="skip-link" href="#main">
+        Skip to content
+    </a>
+    <header class="site-header">
+        <nav class="nav wrap" aria-label="Main navigation">
+            <a class="brand" href="index.html">
+                My<span> Portfolio</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="resume.html">Resume</a>
+                <a aria-current="page" href="biodata.html"> Bio-data</a>
+                <a class="nav-cta" href="mailto:nishmithavitla486@gmail.com"> Let's talk ↗</a>
+            </div>
+        </nav>
+    </header>
+    <main id="main" class="wrap page-content">
+        <div class="page-heading">
+            <h1 align="center">Bio-data</h1>
+        </div>
+        <section class="biodata-sheet">
+            <header class="bio-header">
+                <h2>Nishmitha</h2>
+                <p>Engineering student · Learner</p>
+            </header>
+            <div class="bio-content">
+                <section class="bio-block">
+                    <h3>Personal details</h3>
+                    <dl class="facts">
+                        <dt>Date of birth </dt>
+                        <dd>: 04 August 2006</dd>
+                        <dt>Gender </dt>
+                        <dd>: Female</dd>
+                        <dt>Father's name </dt>
+                        <dd>: M. Thukrappa Gowda</dd>
+                        <dt>Religion </dt>
+                        <dd>: Hindu</dd>
+                        <dt>Nationality </dt>
+                        <dd>: Indian</dd>
+                        <dt>Marital status </dt>
+                        <dd>: Single</dd>
+                    </dl>
+                </section>
+                <section class="bio-block education-box">
+                    <h3>Education details</h3>
+                    <div class="table-wrap">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Qualification</th>
+                                    <th>Institution</th>
+                                    <th>Year</th>
+                                    <th>Result</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                            <tr>
+                                <td>B.E</td>
+                                <td>Vivekananda College of Engineering and Technology</td>
+                                <td>2028</td>
+                                <td>8.9 CGPA</td>
+                            </tr>
+                            <tr>
+                                <td>PUC / 12th</td>
+                                <td>Vivekananda Pre-University College</td>
+                                <td>2024</td>
+                                <td>83%</td>
+                            </tr>
+                            <tr>
+                                <td>SSLC / 10th</td>
+                                <td>Vittal Jaycees English Medium School</td>
+                                <td>2022</td>
+                                <td>93%</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                <section class="bio-block">
+                    <h3>More about me</h3>
+                    <div class="more-grid">
+                        <div>
+                            <span>Experience</span>
+                            <strong>Fresher</strong>
+                        </div>
+                        <div>
+                            <span>Languages</span>
+                            <strong>Kannada · English · Tulu · Hindi</strong>
+                        </div>
+                        <div>
+                            <span>Location</span>
+                            <strong>Mangalore, Karnataka</strong>
+                        </div>
+                    </div>
+                </section>
+                <section class="bio-block">
+                    <h3>Address</h3>
+                    <p>#4-239 Marguli House,Vittal Padnoor,Bantwal Taluk,Kodangai Post,DK, Karnataka - 574243</p>
+                </section>
+            </div>
+            <div class="box-print"><button class="print-option" type="button" onclick="window.print()">Print
+                    bio-data</button></div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="wrap footer-inner">
+            <p>© Nishmitha</p>
+            <a href="index.html">Back to home ↑</a>
+        </div>
+    </footer>
+</body>
+
+</html>
